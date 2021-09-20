@@ -1,16 +1,49 @@
+.maps {
+  position: relative;
+}
+
 .world_map {
   width: 100vw;
+  position: absolute;
+}
+
+.link_europe {
+  position: absolute;
+  margin: 25vh 0 0 20vh;
+}
+
+.link_azia_oceania {
+  position: absolute;
+  margin: 45vh 0 0 60vh;
+}
+
+.link_africa {
+  position: absolute;
+  margin: 45vh 0 0 15vh;
+}
+
+.link_northamerica {
+  position: absolute;
+  margin: 25vh 0 0 125vh;
+}
+
+.link_southamerica {
+  position: absolute;
+  margin: 57vh 0 0 147vh;
 }
 
 .all_description {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .description {
   padding: 2vh;
+  margin-top: 80vh;
 }
 
 .how_to_use {
   padding: 2vh;
+  margin-top: 80vh;
 }
