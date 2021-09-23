@@ -1,6 +1,7 @@
 function post (){
-  const world_map = document.getElementById("world_map");
-  world_map.addEventListener("click", () => {
+  const link_europe = document.getElementById("link_europe");
+  link_europe.addEventListener("click", () => {
+    console.log("イベント発火");
   });
 };
 
