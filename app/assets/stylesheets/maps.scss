@@ -1,3 +1,14 @@
+.header {
+  margin: 0;
+  width: 100vw;
+  height: 15vh;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 4rem;
+}
+
 .world_map {
   width: 100vw;
   position: absolute;
@@ -5,6 +16,8 @@
 
 .link_maps {
   position: absolute;
+  font-size: 2.8rem;
+  font-family: Georgia;
 }
 
 .link_europe {
@@ -14,29 +27,30 @@
 
 .link_azia_oceania {
   position: relative;
-  padding: 20vh 0 0 60vh;
+  padding: 15vh 0 0 60vh;
 }
 
 .link_africa {
   position: relative;
-  margin: -5vh 0 0 15vh;
+  margin: -10vh 0 0 10vh;
 }
 
 .link_northamerica {
   position: relative;
-  margin: -20vh 0 0 125vh;
+  margin: -25vh 0 0 120vh;
 }
 
 .link_southamerica {
   position: relative;
-  margin: 25vh 0 0 147vh;
+  margin: 25vh 0 0 135vh;
 }
 
 .all_description {
   display: flex;
   justify-content: center;
-  position: relative;
-  margin-top: 85vh;
+  padding-top: 90vh;
+  font-family: Georgia;
+  font-size: 1.2rem;
 }
 
 .description {
