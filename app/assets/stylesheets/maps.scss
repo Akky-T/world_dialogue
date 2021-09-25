@@ -1,3 +1,9 @@
+a {
+  text-decoration: none;
+  font-family: Georgia;
+  color: black;
+}
+
 .header {
   margin: 0;
   width: 100vw;
@@ -5,8 +11,23 @@
 }
 
 .title {
-  font-family: Georgia;
   font-size: 4rem;
+}
+
+.lists-right {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  margin-top: -30px;
+  padding-bottom: 10px;
+}
+
+.login {
+
+}
+
+.sign-up {
+  padding: 30px;
 }
 
 .world_map {
@@ -17,7 +38,6 @@
 .link_maps {
   position: absolute;
   font-size: 2.8rem;
-  font-family: Georgia;
 }
 
 .link_europe {
@@ -49,8 +69,6 @@
   display: flex;
   justify-content: center;
   padding-top: 90vh;
-  font-family: Georgia;
-  font-size: 1.2rem;
 }
 
 .description_title {
@@ -63,8 +81,8 @@
 }
 
 .how_to_use_title {
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .how_to_use {
