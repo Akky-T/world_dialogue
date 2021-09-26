@@ -10,6 +10,12 @@ a {
   height: 15vh;
 }
 
+.second-header {
+  margin: 0;
+  width: 100vw;
+  height: 15vh;
+}
+
 .title {
   font-size: 4rem;
 }
@@ -23,11 +29,11 @@ a {
 }
 
 .login {
-
+  padding-right: 10px;
 }
 
 .sign-up {
-  padding: 30px;
+  padding: 0 30px 0 10px;
 }
 
 .world_map {
