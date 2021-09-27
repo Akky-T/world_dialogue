@@ -35,7 +35,7 @@
     Gender
     <span class="indispensable">necessary</span>
   </div>
-  <%# <%= f.collection_select(:gender_id, Category.all, :id, :name, {}, {class:"select-box", id:"user-gender"}) %> %>
+  <%= f.collection_select(:gender_id, Gender.all, :id, :name, {}, {class:"select-box", id:"user-gender"}) %>
 
   <div class="form-group">
     <div class='form-text-wrap'>
@@ -49,13 +49,13 @@
     Nationality
     <span class="indispensable">necessary</span>
   </div>
-  <%# <%= f.collection_select(:condition_id, Condition.all, :id, :name, {}, {class:"select-box", id:"user-nationality"}) %> %>
+  <%= f.collection_select(:nationality_id, Nationality.all, :id, :name, {}, {class:"select-box", id:"user-nationality"}) %>
 
   <div class="weight-bold-text">
     Occupation
     <span class="indispensable">necessary</span>
   </div>
-  <%# <%= f.collection_select(:condition_id, Condition.all, :id, :name, {}, {class:"select-box", id:"user-occupation"}) %> %>
+  <%= f.collection_select(:occupation_id, Occupation.all, :id, :name, {}, {class:"select-box", id:"user-occupation"}) %>
 
   <div class="actions">
     <%= f.submit "Sign up" %>

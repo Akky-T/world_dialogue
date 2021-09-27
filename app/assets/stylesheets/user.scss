@@ -10,3 +10,13 @@ a {
   height: 15vh;
   font-size: 4rem;
 }
+
+.registration-main {
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Georgia;
+}
