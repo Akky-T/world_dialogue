@@ -2,6 +2,8 @@ a {
   text-decoration: none;
   font-family: Georgia;
   color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .header {
@@ -14,6 +16,7 @@ a {
   margin: 0;
   width: 100vw;
   height: 15vh;
+  font-size: 4rem;
 }
 
 .title {
@@ -48,27 +51,31 @@ a {
 
 .link_europe {
   position: relative;
-  padding: 25vh 0 0 20vh;
+  position: absolute;
+  padding: 200px 0px 0px 100px;
 }
 
 .link_azia_oceania {
   position: relative;
-  padding: 15vh 0 0 60vh;
+  position: absolute;
+  padding: 350px 0px 0px 500px;
 }
 
 .link_africa {
   position: relative;
-  margin: -10vh 0 0 10vh;
+  position: absolute;
+  padding: 350px 0px 0px 70px;
 }
 
 .link_northamerica {
   position: relative;
-  margin: -25vh 0 0 120vh;
+  position: absolute;
+  padding: 200px 0px 0px 900px;
 }
 
 .link_southamerica {
   position: relative;
-  margin: 25vh 0 0 135vh;
+  padding: 450px 0px 0px 1100px;
 }
 
 .all_description {
