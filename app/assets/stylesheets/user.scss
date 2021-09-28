@@ -5,5 +5,18 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   font-family: Georgia;
+  font-size: 2rem;
+}
+
+.indispensable {
+  background-color: black;
+  color: white;
+  padding: 0px 3px 0px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.form-group{
 }
