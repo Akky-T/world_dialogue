@@ -7,7 +7,13 @@
   flex-direction: column;
   align-items: center;
   font-family: Georgia;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.sign-up-title {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 50px;
 }
 
 .indispensable {
@@ -16,7 +22,55 @@
   padding: 0px 3px 0px;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1rem;
 }
 
-.form-group{
+.text-nickname{
+  padding-bottom: 20px;
+}
+
+.field-email{
+  padding-bottom: 20px;
+}
+
+.field-password{
+  padding-bottom: 20px;
+  margin-left: 110px;
+}
+
+.field-password-confirmation{
+  padding-bottom: 20px;
+}
+
+.collection-gender{
+  margin-right: 80px;
+}
+
+.select-box-gender{
+  margin: 0px 150px 20px 0px;
+}
+
+.text-age{
+  padding-bottom: 20px;
+  margin-right: 125px;
+}
+
+.collection-nationality{
+  margin-right: 45px;
+}
+
+.select-box-nationality{
+  margin: 0px 105px 20px 0px;
+}
+
+.collection-occupation{
+  margin-right: 45px;
+}
+
+.select-box-occupation{
+  margin: 0px 55px 20px 0px;
+}
+
+.actions {
+  margin-bottom: 20px;
 }

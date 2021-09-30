@@ -3,9 +3,9 @@
 <%= form_with model: @user, url: user_registration_path, class: 'registration-main', local: true do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <h2>Sign up</h2>
+  <div class='sign-up-title'>Sign up</div>
 
-  <div class="form-group">
+  <div class="text-nickname">
     <div class='form-text-wrap'>
       <label class="form-text">Nickname</label>
       <span class="indispensable">necessary</span>
@@ -13,12 +13,12 @@
     <%= f.text_area :nickname, class:"input-default", size: "20x1", id:"nickname", placeholder:"ex. Tom ", maxlength:"40" %>
   </div>
 
-  <div class="field">
+  <div class="field-email">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="field">
+  <div class="field-password">
     <%= f.label :password %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
@@ -26,36 +26,36 @@
     <%= f.password_field :password, autocomplete: "new-password" %>
   </div>
 
-  <div class="field">
+  <div class="field-password-confirmation">
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
-  <div class="weight-bold-text">
+  <div class="collection-gender">
     Gender
     <span class="indispensable">necessary</span>
   </div>
-  <%= f.collection_select(:gender_id, Gender.all, :id, :name, {}, {class:"select-box", id:"user-gender"}) %>
+  <%= f.collection_select(:gender_id, Gender.all, :id, :name, {}, {class:"select-box-gender", id:"user-gender"}) %>
 
-  <div class="form-group">
+  <div class="text-age">
     <div class='form-text-wrap'>
       <label class="form-text">Age</label>
       <span class="indispensable">necessary</span>
     </div>
-    <%= f.text_area :user_age, class:"input-default", id:"user_age", placeholder:"26", maxlength:"3" %>
+    <%= f.text_area :user_age, class:"input-default", size: "3x1", id:"user_age", placeholder:"26", maxlength:"3" %>
   </div>
 
-  <div class="weight-bold-text">
+  <div class="collection-nationality">
     Nationality
     <span class="indispensable">necessary</span>
   </div>
-  <%= f.collection_select(:nationality_id, Nationality.all, :id, :name, {}, {class:"select-box", id:"user-nationality"}) %>
+  <%= f.collection_select(:nationality_id, Nationality.all, :id, :name, {}, {class:"select-box-nationality", id:"user-nationality"}) %>
 
-  <div class="weight-bold-text">
+  <div class="collection-occupation">
     Occupation
     <span class="indispensable">necessary</span>
   </div>
-  <%= f.collection_select(:occupation_id, Occupation.all, :id, :name, {}, {class:"select-box", id:"user-occupation"}) %>
+  <%= f.collection_select(:occupation_id, Occupation.all, :id, :name, {}, {class:"select-box-occupation", id:"user-occupation"}) %>
 
   <div class="actions">
     <%= f.submit "Sign up" %>
