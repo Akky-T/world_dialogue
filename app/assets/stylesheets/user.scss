@@ -11,9 +11,10 @@
 }
 
 .sign-up-in-title {
+
   font-size: 3rem;
   font-weight: bold;
-  padding-bottom: 50px;
+  padding: 50px 0px;
 }
 
 .indispensable {
@@ -34,8 +35,12 @@
 }
 
 .field-password{
-  padding-bottom: 20px;
   margin-left: 110px;
+  display: flex;
+}
+
+.password-box{
+  margin-bottom: 20px;
 }
 
 .field-password-sign-in{
@@ -60,7 +65,7 @@
 }
 
 .collection-nationality{
-  margin-right: 45px;
+  margin-right: 140px;
 }
 
 .select-box-nationality{
@@ -68,7 +73,7 @@
 }
 
 .collection-occupation{
-  margin-right: 45px;
+  margin-right: 140px;
 }
 
 .select-box-occupation{

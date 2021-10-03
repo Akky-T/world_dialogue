@@ -23,6 +23,15 @@ a {
   font-size: 4rem;
 }
 
+.user-nickname {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.sign-out {
+  margin: 0px 10px;
+}
+
 .lists-right {
   display: flex;
   justify-content: flex-end;
@@ -31,12 +40,16 @@ a {
   padding-bottom: 10px;
 }
 
-.login {
+.sign-in {
   padding-right: 10px;
 }
 
 .sign-up {
   padding: 0 30px 0 10px;
+}
+
+.sign-out {
+  padding-right: 10px;
 }
 
 .world_map {

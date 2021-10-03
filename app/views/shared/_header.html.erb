@@ -5,11 +5,11 @@
   <div class='nav'>
     <ul class='lists-right'>
       <% if user_signed_in? %>
-        <li><%= link_to 'Post', "#", class: "top_page_post" %></li>
         <li><%= link_to current_user.nickname, "#", class: "user-nickname" %></li>
-        <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: "logout" %></li>
+        <li><%= '|'%></li>
+        <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: "sign-out" %></li>
       <% else %>
-        <li><%= link_to 'Sign in', new_user_session_path, class: "login" %></li>
+        <li><%= link_to 'Sign in', new_user_session_path, class: "sign-in" %></li>
         <li><%= '|'%></li>
         <li><%= link_to 'Sign up', new_user_registration_path, class: "sign-up" %></li>
       <% end %>
