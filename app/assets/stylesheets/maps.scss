@@ -45,43 +45,44 @@ a {
 }
 
 .link_maps {
-  position: absolute;
+  position: relative;
   font-size: 2.8rem;
 }
 
 .link_europe {
   position: relative;
-  // position: absolute;
-  padding: 200px 0px 0px 100px;
+  position: absolute;
+  margin: 200px 0px 0px 120px;
 }
 
 .link_azia_oceania {
   position: relative;
-  // position: absolute;
-  padding: 350px 0px 0px 500px;
+  position: absolute;
+  margin: 300px 0px 0px 400px;
 }
 
 .link_africa {
   position: relative;
-  // position: absolute;
-  padding: 350px 0px 0px 70px;
+  position: absolute;
+  margin: 360px 0px 0px 100px;
 }
 
 .link_northamerica {
   position: relative;
-  // position: absolute;
-  padding: 200px 0px 0px 900px;
+  position: absolute;
+  margin: 200px 0px 0px 900px;
 }
 
 .link_southamerica {
   position: relative;
-  padding: 0vh 0px 0px 75vh;
+  position: absolute;
+  margin: 500px 0px 0px 1000px;
 }
 
 .all_description {
   display: flex;
   justify-content: center;
-  padding-top: 90vh;
+  padding-top: 83vh;
 }
 
 .description_title {

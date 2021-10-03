@@ -1,13 +1,15 @@
-<h2>Forgot your password?</h2>
+<%= render "shared/second-header"%>
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+<%= form_with model: @user, url: user_registration_path, class: 'registration-main', local: true do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field">
+  <div class='sign-up-in-title'>Sign in</div>
+
+  <div class="field-email">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
-
+  
   <div class="actions">
     <%= f.submit "Send me reset password instructions" %>
   </div>
