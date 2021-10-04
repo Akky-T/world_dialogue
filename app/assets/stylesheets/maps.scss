@@ -16,11 +16,11 @@ a {
   margin: 0;
   width: 100vw;
   height: 15vh;
-  font-size: 4rem;
+  font-size: 5vw;
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 5vw;
 }
 
 .user-nickname {
@@ -35,7 +35,7 @@ a {
 .lists-right {
   display: flex;
   justify-content: flex-end;
-  font-size: 2rem;
+  font-size: 3vw;
   margin-top: -30px;
   padding-bottom: 10px;
 }
@@ -52,50 +52,57 @@ a {
   padding-right: 10px;
 }
 
+.toppage_map{
+  position: absolute;
+}
+
 .world_map {
   width: 100vw;
+  height: 80vh;
+  position: relative;
   position: absolute;
 }
 
 .link_maps {
   position: relative;
-  font-size: 2.8rem;
+  position: absolute;
+  font-size: 3vw;
 }
 
 .link_europe {
   position: relative;
   position: absolute;
-  margin: 200px 0px 0px 120px;
+  margin: 23vh 0px 0px 10vw;
 }
 
 .link_azia_oceania {
   position: relative;
   position: absolute;
-  margin: 300px 0px 0px 400px;
+  margin: 35vh 0px 0px 35vw;
 }
 
 .link_africa {
   position: relative;
   position: absolute;
-  margin: 360px 0px 0px 100px;
+  margin: 43vh 0px 0px 5vw;
 }
 
 .link_northamerica {
   position: relative;
   position: absolute;
-  margin: 200px 0px 0px 900px;
+  margin: 25vh 0px 0px 65vw;
 }
 
 .link_southamerica {
   position: relative;
   position: absolute;
-  margin: 500px 0px 0px 1000px;
+  margin: 53vh 0px 0px 75vw;
 }
 
 .all_description {
   display: flex;
   justify-content: center;
-  padding-top: 83vh;
+  margin-top: 83vh;
 }
 
 .description_title {

@@ -1,23 +1,24 @@
 <%= render "shared/header" %>
 
-<%= image_tag("world_map.png", class: "world_map", id: "world_map") %>
-
-<div class='link_maps'>
-  <div class="link_europe">
-    <%= link_to 'Europe', id: "link_europe" %>
-  </div>
-  <div class="link_azia_oceania">
-    <%= link_to "Azia & Oceania", id: "link_azia_oceania" %>
-  </div>
-  <div class="link_africa">
-    <%= link_to "Africa", id: "link_africa" %>
-  </div>
-  <div class="link_northamerica">
-    <%= link_to "NorthAmerica", id: "link_northamerica" %>
-  </div>
-  <div class="link_southamerica">
-    <%= link_to "SouthAmerica", id: "link_southamerica" %>
-  </div>
+<div class="toppage_map">
+  <%= image_tag("world_map.png", class: "world_map", id: "world_map") %>
+    <div class='link_maps'>
+      <div class="link_europe">
+        <%= link_to 'Europe', id: "link_europe" %>
+      </div>
+      <div class="link_azia_oceania">
+        <%= link_to "Azia & Oceania", id: "link_azia_oceania" %>
+      </div>
+      <div class="link_africa">
+        <%= link_to "Africa", id: "link_africa" %>
+      </div>
+      <div class="link_northamerica">
+        <%= link_to "NorthAmerica", id: "link_northamerica" %>
+      </div>
+      <div class="link_southamerica">
+        <%= link_to "SouthAmerica", id: "link_southamerica" %>
+      </div>
+    </div>
 </div>
 
 <div class='all_description' >
