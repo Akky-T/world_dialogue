@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="UtsbdVYM3buj4zv3ttZR" name="ページ1">
-        <mxGraphModel dx="1483" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1555" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -44,7 +44,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="25" value="Postsテーブル" style="swimlane;rounded=0;sketch=0;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="260" width="250" height="130" as="geometry"/>
+                    <mxGeometry x="480" y="260" width="250" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="to_national_id(integer型, NOT NULL)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="25" vertex="1">
                     <mxGeometry x="20" y="100" width="210" height="20" as="geometry"/>
@@ -78,6 +78,9 @@
                         </Array>
                         <mxPoint x="125" y="200" as="sourcePoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="to_national_id(integer型, NOT NULL)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="380" width="210" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
