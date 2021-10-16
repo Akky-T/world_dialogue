@@ -28,10 +28,6 @@ a {
   margin-right: 10px;
 }
 
-.sign-out {
-  margin: 0px 10px;
-}
-
 .lists-right {
   display: flex;
   justify-content: flex-end;
@@ -50,6 +46,16 @@ a {
 
 .sign-out {
   padding-right: 10px;
+  margin: 0px 10px;
+}
+
+.link_to_post {
+  margin-right: 60vw;
+  background-color: black;
+  color: white;
+  padding: 0px 3px 0px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .toppage_map{
