@@ -1,6 +1,6 @@
 function post (){
-  const link_europe = document.getElementById("link_europe");
-  link_europe.addEventListener("click", () => {
+  const link_azia_oceania = document.getElementById("link_azia_oceania");
+  link_azia_oceania.addEventListener("click", () => {
     console.log("イベント発火");
   });
 };
